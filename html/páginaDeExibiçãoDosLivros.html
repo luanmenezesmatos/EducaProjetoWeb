@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materiais e Livros — Educa</title>
+  <link rel="stylesheet" href="../CSS/Materiais&Livros.css">
+  <link rel="stylesheet" href="../Assets/import.css">
+  <link rel="stylesheet" href="../CSS/mediaLivros.css">
+</head>
+<body>
+  <header class="layout_header">
+    <nav class="layout_container_header">
+      <div class="layout_itens_header logo_header bold">Educa</div>
+      <div class="layout_itens_header">
+        <ol class="layout_list_header">
+          <a href="../index.html"><li class="components_itens_header">Início</li></a>
+        </ol>
+      </div>
+      <div class="layout_container_adicional_info_header">
+        <figure>
+          <img src="../Assets/img/img.png" alt="" class="component_img_header">
+        </figure>
+        <span class="component_name_header">Olá, <b class="semiBold">Luan</b>!</span>
+      </div>
+    </nav>
+  </header>
+  <main class="layout_main">
+    <section class="layout_container_descricao">
+      <h1 class="component_title_descricao bold">Arquivo do Educa</h1>
+      <p class="component_text_descricao">
+        Embarque em nossa biblioteca completa de materiais de estudo e lazer,
+      <br>
+      contendo diversos livros, artigos, quadrinhos e revistas.</p>
+    </section>
+    <section class="layout_container_svg_main">
+      <figure>
+        <img src="../Assets/svg/Bibliophile-bro 1.svg" alt="" class="component_svg_main">
+      </figure>
+    </section>
+    <section class="layout_container_extra_text">
+      <p class="component_extra_text">
+        Nosso índice de busca é atualizado mensalmente. Atualmente, ele possui arquivos
+        <br>
+        até 18 de julho de 2023.</p>
+    </section>
+    <section class="layout_filter">
+      <div class="layout_container_list_filter">
+        <ol class="layout_lista_filter">
+          <li class="component_item_filter semiBold">
+            <select name="Idioma" id="idioma" class="selected semiBold">
+              <option value="idioma" selected disabled>Idioma</option>
+              <option value="en">Inglês [en]</option>
+              <option value="ru">Russo [ru]</option>
+              <option value="fr">Francês [fr]</option>
+              <option value="es">Espanhol [es]</option>
+              <option value="it">Italiano [it]</option>
+              <option value="de">Alemão [de]</option>
+              <option value="zh">Chinês [zh]</option>
+              <option value="pt">Português [pt]</option>
+              <option value="nl">Holandês [nl]</option>
+              <option value="hu">Húngaro [hu]</option>
+              <option value="uk">Ucraniano [uk]</option>
+              <option value="ja">Japonês [ja]</option>
+              <option value="pl">Polonês [pl]</option>
+              <option value="tr">Turco [tr]</option>
+              <option value="ro">Romeno [ro]</option>
+              <option value="cs">Tcheco [cs]</option>
+              <option value="bg">Búlgaro [bg]</option>
+              <option value="it">Lituano [it]</option>
+              <option value="el">Grego [el]</option>
+              <option value="id">Indonésio [id]</option>
+              <option value="ar">Árabe [ar]</option>
+            </select>
+          </li>
+          <li class="component_item_filter semiBold">
+            <select name="conteudo" id="idioma" class="selected semiBold">
+              <option value="conteudo" selected disabled>Conteúdo</option>
+              <option value="journal_article">Artigo de periódico</option>
+              <option value="book_any">Livro (todos)</option>
+              <option value="book_unknown">Livro (desconhecido)</option>
+              <option value="book_fiction">Livro (ficção</option>
+              <option value="book_nonfiction">Livro (não ficção)</option>
+              <option value="book_comic">Quadrinhos</option>
+              <option value="magazine">Revista</option>
+              <option value="standards_documents">Documento de normas</option>
+            </select>
+          </li>
+          <li class="component_item_filter semiBold">
+            <select name="extensão" id="idioma" class="selected semiBold">
+              <option value="extensao" selected disabled>Tipo de Arquivo</option>
+              <option value="pdf">Pdf</option>
+              <option value="epub">Epub</option>
+              <option value="cbr">Cbr</option>
+              <option value="fb2">Fb2</option>
+              <option value="mobi">Mobi</option>
+              <option value="cbz">Cbz</option>
+              <option value="djvu">Djvu</option>
+              <option value="azw3">Azw3</option>
+              <option value="fb2.zip">fb2.zip</option>
+              <option value="txt">Txt</option>
+              <option value="rar">Rar</option>
+              <option value="zip">Zip</option>
+              <option value="doc">Doc</option>
+              <option value="lit">Lit</option>
+              <option value="unknown">Unknown</option>
+              <option value="html">Html</option>
+              <option value="htm">Htm</option>
+              <option value="lrf">Lrf</option>
+              <option value="mht">Mht</option>
+            </select>
+          </li>
+          <li class="component_item_filter semiBold">
+            <select name="conteudo" id="idioma" class="selected semiBold">
+              <option value="Relevante" selected disabled>Relevante</option>
+              <option value="">Mais relevante</option>
+              <option value="newest">Mais recente</option>
+              <option value="oldest">Mais Antigo</option>
+            </select>
+          </li>
+        </ol>
+      </div>
+      <div class="layout_container_input">
+        <input type="text" name="text" id="input" class="semiBold" placeholder="Pesquisar título, autor, idioma, tipo de arquivo, ISBN, MD5, …">
+      </div>
+    </section>
+    <section>
+      <button class="layout_button">
+        <p class="component_text_button semiBold">Pesquisar</p>
+        <img src="../Assets/svg/arrow_forward.svg" alt="">
+      </button>
+    </section>
+    <section class="layout_container_books">
+      <div class="layout_container_book_description">
+        <figure class="layout_container_book_img">
+          <img src="../Assets/img/image 1.png" alt="" class="component_book_img">
+        </figure>
+        <div class="layout_container_description">
+          <h1 class="component_title_book semiBold">Building a Second Brain : A Proven Method to
+            Organize Your Digital Life and...</h1>
+            <div class="next">
+              <small class="component_author_book medium">Atria Books, 2022</small>
+              <small class="component_author_book semiBold">Tiago Forte</small>
+            </div>
+        </div>
+      </div>
+      <div class="layout_container_book_description">
+        <figure class="layout_container_book_img">
+          <img src="../Assets/img/image 2.png" alt="" class="component_book_img">
+        </figure>
+        <div class="layout_container_description">
+          <h1 class="component_title_book semiBold">Ways of Knowing: Praxis Volume 4</h1>
+          <div class="next">
+            <small class="component_author_book medium">2021</small>
+            <small class="component_author_book semiBold">Tiago Forte</small>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

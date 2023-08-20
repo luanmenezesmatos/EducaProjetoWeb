@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  height: auto;
+}
+.layout_desempenho {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  gap: 4rem;
+}
+.component_title_desempenho {
+  font-size: 2.5rem;
+}
+.layout_container_main_drop2 {
+  display: flex;
+  width: 100%;
+  gap: 1.25rem;
+}
+.layout_main_container_drop {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.layout_container_dropdown {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 10px;
+  background-color: lightgray;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  width: 20rem;
+}
+.component_button {
+  background-color: black;
+  border: none;
+  padding: 1.5rem 3rem;
+  color: white;
+  width: 320px;
+  border-radius: 1.25rem;
+  font-size: 1.25rem;
+}
+.component_button:active {
+  position: relative;
+  bottom: -2px;
+}
+.layout_container_button {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.layout_container_button_desciplina {
+  display: flex;
+  justify-content: space-between;
+}
+.layout_container_disciplinas {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+.layout_container_alfa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  appearance: none;
+}

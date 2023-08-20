@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questões — Educa</title>
+  <link rel="stylesheet" href="../CSS/sidebar.css"> 
+  <link rel="stylesheet" href="../CSS/questoes.css">
+  <link rel="stylesheet" href="../Assets/import.css">
+  <link rel="stylesheet" href="../CSS/querieSideBar.css">
+  <link rel="stylesheet" href="../CSS/querieQuestoes.css">
+</head>
+<body id="body">
+  <div class="layout_sidebar_visible altura">
+    <div class="layout_container_svg grow">
+      <figure>
+        <img src="../Assets/svg/Ícone do Menu.svg"  class="component_svg_sidebar" alt="" id="sidebar_button">
+      </figure>
+    </div>
+    <div class="layout_container_svg">
+      <figure>
+        <a href="./DentroDaPlataforma(dashboard).html"><img src="../Assets/svg/notificationfavorite.svg" class="component_svg_sidebar" alt=""></a>
+      </figure>
+    </div>
+    <div class="layout_container_svg">
+      <figure>
+        <a href="./DentroDaPlataforma(meu desempenho).html"><img src="../Assets/svg/star.svg" class="component_svg_sidebar" alt=""></a>
+      </figure>
+    </div>
+    <div class="layout_container_svg">
+      <figure>
+        <a href="./DentroDaPlataforma(questões).html"><img src="../Assets/svg/check.svg"  class="component_svg_sidebar"alt=""></a>
+      </figure>
+    </div>
+  </div>
+  <!-- Sidebar não vísivel-->
+  <div class="layout_sidebar_hidden">
+    <div class="layout_container_title_sidebar_hidden">
+      <a href="#"><h1 class="component_title_sidebar_hidden bold">Educa</h1></a>
+      <figure>
+        <img src="../Assets/svg/Ícone do Menu.svg" alt="" class="component_menu" id="back_button">
+      </figure>
+    </div>
+    <div class="layout_container_elements">
+      <div class="layout_item_menu_sidebar_hidden">
+        <figure>
+          <a href="./DentroDaPlataforma(dashboard).html"><img src="../Assets/svg/notificationfavorite.svg" alt="" class="component_svg_hidden"></a>
+        </figure>
+        <a href="./DentroDaPlataforma(dashboard).html"><span class="component_svg_span_hidden semiBold">Novidades</span></a>
+      </div>
+      <div class="layout_item_menu_sidebar_hidden">
+        <figure>
+          <a href="./DentroDaPlataforma(meu desempenho).html"><img src="../Assets/svg/star.svg" alt="" class="component_svg_hidden"></a>
+        </figure>
+        <a href="./DentroDaPlataforma(meu desempenho).html"><span class="component_svg_span_hidden semiBold">Meu Desempenho</span></a>
+      </div>
+      <div class="layout_item_menu_sidebar_hidden">
+        <figure>
+          <a href="./DentroDaPlataforma(questões).html"><img src="../Assets/svg/check.svg" alt="" class="component_svg_hidden"></a>
+        </figure>
+        <a href="./DentroDaPlataforma(questões).html"><span class="component_svg_span_hidden semiBold">Questões</span></a>
+      </div>
+    </div>
+    <div class="layout_materia">
+      <div class="layout_main_materia">
+        <figure><img src="../Assets/svg/cub.svg" alt=""></figure>
+        <p class="semiBold">Disciplinas</p>
+      </div>
+      <ol class="layout_list_materia">
+        <li class="component_materia_hidden medium">
+          <div class="historia color"></div>História</li>
+        <li class="component_materia_hidden medium">
+          <div class="geografia color"></div>Geografia</li>
+        <li class="component_materia_hidden medium">
+          <div class="filosofia color"></div>Filosofia</li>
+        <li class="component_materia_hidden medium">
+          <div class="sociologia color"></div>Sociologia</li>
+        <li class="component_materia_hidden medium">
+          <div class="biologia color"></div>Biologia</li>
+        <li class="component_materia_hidden medium">
+          <div class="espanhol color"></div>Espanhol</li>
+        <li class="component_materia_hidden medium">
+          <div class="literatura color"></div>Literatura</li>
+        <li class="component_materia_hidden medium">
+          <div class="ingles color"></div>Inglês</li>
+        <li class="component_materia_hidden medium">
+          <div class="portugues color"></div>Português</li>
+        <li class="component_materia_hidden medium">
+          <div class="matematica color"></div>Matemática</li>
+        <li class="component_materia_hidden medium">
+          <div class="quimica color"></div>Química</li>
+        <li class="component_materia_hidden medium">
+          <div class="artes color"></div>Artes</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="layout_questoes layout_extra_info">
+    <div class="layout_container_title_questoes">
+      <h1 class="component_title_questoes bold">Questões</h1>
+    </div>
+
+    <!-- Trabalhando agora-->
+
+    <div class="layout_container_inputs">
+      <div class="layout_container_input">
+        <label for="txt1" class="semiBold label">Palavra-chave</label>
+        <input type="text" name="" id="txt1" placeholder="Busque por palavras chave" class="input_text">
+      </div>
+      <div class="layout_container_input">
+        <label for="txt2" class="semiBold label">Disciplina</label>
+        <input type="text" name="" id="txt2" list="Disciplina_detalhe" placeholder="Selecione as disciplinas" class="input_text">
+      </div>
+      <div class="layout_container_input">
+        <label for="txt2" class="semiBold label">Prova</label>
+        <input type="text" name="" list="Prova_detalhe" id="txt2" placeholder="Selecione as provas correspondentes" class="input_text">
+      </div>
+      <div class="layout_container_input">
+        <label for="txt2" class="semiBold label">Ano</label>
+        <input type="text" name="" list="Ano_detalhe" id="txt2" placeholder="Selecione os anos" class="input_text">
+      </div>
+      <div class="layout_container_input">
+        <p class="label semiBold">Questões Com</p>
+        <div id="check_box">
+          <input type="checkbox" name="" id="check">
+          <label for="check" label>Gabarito Comentado</label>
+        </div>
+      </div>
+      <div class="layout_container_input_new">
+        <p class="label semiBold">Questões que</p>
+        <div class="n1">
+          <button class="button_new_components semiBold left" style="color: black">Não resolvi</button>
+          <button class="button_new_components middle1 semiBold" style="color: black">Resolvi</button>
+          <button class="button_new_components middle semiBold" style="color: black">Acertei</button>
+          <button class="button_new_components semiBold rigth" style="color: black">Errei</button>
+        </div>
+      </div>
+    </div>
+
+  <div class="layout_container_button">
+    <button class="component_button bold"> 
+      Buscar
+    </button>
+  </div>
+
+  <!-- Trabalhando agora questions-->
+
+  <section class="layout_questions_container_new">
+    <div class="layout_container_header_questions_new">
+      <h1 class="componente_title_questions_new semiBold">Foram encontradas 534 questões</h1>
+      <div class="layout_header_text_questions_new">
+        <span class="componente_text_new serie">63E9FAF5-7A</span>
+        <span class="componente_text_new serie_2">ENEM 2021 - Matemática - Polígonos, Geometria Plana</span>
+      </div>
+    </div>
+    <div class="layout_container_description">
+      <p class="componente_text_description semiBold">
+        A projeção ortogonal sobre o plano do solo do trajeto percorrido por
+        esse visitante é representada por
+      </p>
+    </div>
+    <div class="layout_container_button_questions">  
+      <button class="button_hidden_questions">
+        <figure class="container_button_questions">
+          <img src="../Assets/svg/pusle.svg" alt="" class="svg_hidden_questions">
+        </figure>
+        <p class="componente_texte_hidden semiBold" style="color: black">
+          Ver texto associado
+        </p>
+      </button>
+    </div>
+    <div class="layout_container_questions_prova">
+      <p class="componente_texto_description_question">
+        O Atomium, representado na imagem, é um dos principais pontos turísticos
+        de Bruxelas. Ele foi construído em 1958 para a primeira grande exposição
+        mundial depois da Segunda Guerra Mundial, a Feira Mundial de Bruxelas.
+        <br>
+        <br>
+        Trata-se de uma estrutura metálica construída no formato de um cubo.
+        Essa estrutura está apoiada por um dos vértices sobre uma base paralela
+        ao plano do solo, e a diagonal do cubo, contendo esse vértice, é ortogonal
+        ao plano da base. Centradas nos vértices desse cubo, foram construídas
+        oito esferas metálicas, e uma outra esfera foi construída centrada no
+        ponto de interseção das diagonais do cubo. As oito esferas sobre os
+        vértices são interligadas segundo suas arestas, e a esfera central se
+        conecta a elas pelas diagonais do cubo.
+        <br>
+        <br>
+        Todas essas interligações são feitas por tubos cilíndricos que possuem
+        escadas em seu interior, permitindo o deslocamento de pessoas pela
+        parte interna da estrutura. Na diagonal ortogonal à base, o deslocamento
+        é feito por um elevador, que permite o deslocamento entre as esferas da
+        base e a esfera do ponto mais alto, passando pela esfera central.
+        <br>
+        <br>
+        Considere um visitante que se deslocou pelo interior do Atomium
+        sempre em linha reta e seguindo o menor trajeto entre dois vértices,
+        passando por todas as arestas e todas as diagonais do cubo.
+      </p>
+      <figure class="container_img_question">
+        <img src="../Assets/img/image 3.png" alt="" class="img_questions">
+      </figure>
+      <figcaption class="figcaption">Disponível em: http://trupedatrip.com. Acesso em: 25 out. 2019.</figcaption>
+    </div>
+  </section>
+  <div class="container_alternativas_questions">
+    <div class="flex_questions">
+      <div class="container_alter"> 
+        <div class="container_alternativa semiBold">A</div>
+        <div class="container_alternativa semiBold">B</div>
+        <div class="container_alternativa semiBold">C</div>
+        <div class="container_alternativa semiBold">D</div>
+        <div class="container_alternativa semiBold">E</div>
+      </div>
+      <div class="layout_container_img_questions">
+        <div class="forma_geometrica"><figure class="forma_container"><img src="../Assets/img/image 4.png" alt="" class="img_forma"></figure></div>
+        <div class="forma_geometrica"><figure class="forma_container"><img src="../Assets/img/image 5.png" alt="" class="img_forma"></figure></div>
+        <div class="forma_geometrica"><figure class="forma_container"><img src="../Assets/img/image 6.png" alt="" class="img_forma"></figure></div>
+        <div class="forma_geometrica"><figure class="forma_container"><img src="../Assets/img/image 7.png" alt="" class="img_forma"></figure></div>
+        <div class="forma_geometrica"><figure class="forma_container"><img src="../Assets/img/image 8.png" alt="" class="img_forma"></figure></div>
+      </div>
+    </div>
+    <div class="container_button_confirm">
+      <div>
+        <button class="button_confirm semiBold">
+          Confirmar Resposta
+        </button>
+      </div>
+      <div>
+        <button id="button_verifed">
+          <figure>
+            <img src="" alt="" id="img_verifed">
+          </figure>
+          <p id="text_comple" class="semiBold">
+
+          </p>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  <datalist id="Disciplina_detalhe">
+    <select name="" id="Disciplina">
+      <option value="Artês Cênicas"></option>
+      <option value="Artes Plásticas"></option>
+      <option value="Artes Visuais"></option>
+      <option value="Atualidades"></option>
+      <option value="Biologia"></option>
+      <option value="Educação Artística"></option>
+      <option value="Educação física"></option>
+      <option value="Espanhol"></option>
+      <option value="Filosofia"></option>
+      <option value="Física"></option>
+      <option value="Geografia"></option>
+      <option value="História"></option>
+      <option value="História e Geografia de Estados e Muncípios"></option>
+      <option value="Literatura"></option>
+      <option value="Matemática"></option>
+      <option value="Música"></option>
+      <option value="Outros idiomas - Alemão"></option>
+      <option value="Outros Idiomar - Fracês"></option>
+      <option value="Outros Idiomar - Italiano"></option>
+      <option value="Português"></option>
+      <option value="Química"></option>
+      <option value="Redação"></option>
+      <option value="Sociologia"></option>
+    </select>
+  </datails>
+  <datalist id="Prova_detalhe">
+    <select name="" id="prova">
+      <option value="ENEM"></option>
+      <option value="FATEC"></option>
+      <option value="FUVESTPUC"></option>
+      <option value="SENAC"></option>
+      <option value="USB"></option>
+      <option value="UCPEL"></option>
+      <option value="UCS"></option>
+      <option value="UDESC"></option>
+      <option value="UEMG"></option>
+      <option value="UFSCAR"></option>
+      <option value="UNAERP"></option>
+      <option value="UNESP"></option>
+      <option value="UNICAMP"></option>
+      <option value="USP"></option>
+    </select>
+  </datails>
+  <datalist id="Ano_detalhe">
+    <select name="" id="detalhe">
+      <option value="2023"></option>
+      <option value="2022"></option>
+      <option value="2021"></option>
+      <option value="2020"></option>
+      <option value="2019"></option>
+      <option value="2018"></option>
+      <option value="2017"></option>
+      <option value="2016"></option>
+      <option value="2015"></option>
+      <option value="2014"></option>
+      <option value="2013"></option>
+      <option value="2012"></option>
+      <option value="2011"></option>
+      <option value="2010"></option>
+      <option value="2009"></option>
+      <option value="2008"></option>
+      <option value="2007"></option>
+      <option value="2006"></option>
+      <option value="2005"></option>
+      <option value="2004"></option>
+    </select>
+  </datails>
+  <script src="../JavaScript/sidebar.js"></script>
+  <script src="../JavaScript/questoes.js"></script>
+</body>
+</html>

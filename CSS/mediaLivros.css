@@ -1,0 +1,213 @@
+@media screen and (max-width: 2000px) {
+  .logo_header {
+    font-size: 4rem;
+  }
+  .layout_list_header {
+    font-size: 2.25rem;
+  }
+  .component_img_header {
+    width: 60px;
+    height: 60px;
+  }
+  .component_name_header {
+    font-size: 1.50rem;
+  }
+  .component_title_descricao {
+    font-size: 4rem;
+  }
+  .component_text_descricao {
+    font-size: 1.5rem;
+  }
+  .component_svg_main {
+    width: 450px;
+    height: 450px;
+  }
+  .component_extra_text {
+    font-size: 1.5rem;
+  }
+  .component_item_filter {
+    width: 25%;
+  }
+  .selected  {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1550px) {
+  .logo_header {
+    font-size: 2.5rem;
+  }
+  .layout_list_header {
+    font-size: 1.3rem;
+  }
+  .component_img_header {
+    width: 40px;
+    height: 40px;
+  }
+  .component_name_header {
+    font-size: 1rem;
+  }
+  .component_title_descricao {
+    font-size: 3.5rem;
+  }
+  .component_text_descricao {
+    font-size: 1.3rem;
+  }
+  .component_extra_text {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (max-width: 1210px) {
+  .selected {
+    font-size: 1rem;
+  }
+  .component_book_img {
+    height: 180px;
+  }
+  .component_title_book {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1110px) {
+  .component_title_descricao {
+    font-size: 2.5rem;
+  }
+  .component_text_descricao {
+    font-size: 1.1rem;
+  }
+  .component_extra_text {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 920px) {
+  .logo_header {
+    font-size: 1.5rem;
+  }
+  .layout_list_header {
+    font-size: 1rem;
+  }
+  .component_img_header {
+    height: 30px;
+    width: 30px;
+  }
+  .component_svg_main {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 865px) {
+  .layout_lista_filter {
+    flex-wrap: wrap;
+  }
+  .component_item_filter {
+    width: 49%;
+  }
+  .component_title_book {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (max-width: 800px){
+  .component_item_filter {
+    width: 48%;
+  }
+  .component_extra_text {
+    width: 72%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 680px) {
+  .component_text_descricao {
+    font-size: 0.9rem;
+  }
+  .component_title_descricao {
+    font-size: 1.5rem;
+  }
+  #input {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 580px) {
+  .component_text_descricao {
+    font-size: 0.7rem;
+  }
+  .component_title_descricao {
+    font-size: 1.3rem;
+  }
+  .component_svg_main {
+    width: 250px;
+    height: 250px;
+  }
+  .component_extra_text {
+    width: 100%;
+    margin: auto;
+    font-size: 0.7rem;
+  }
+  .component_item_filter {
+    height: 38px;
+  }
+  .component_book_img {
+    height: 150px;
+  }
+  .component_title_book {
+    font-size: .8rem;
+  }
+  .component_author_book {
+    font-size: .6rem;
+  }
+  .selected {
+    font-size: .8rem;
+  }
+  #input {
+    font-size: .5rem;
+  }
+  .layout_button {
+    padding: .5rem 2rem;
+  }
+  .logo_header {
+    font-size: 1rem;
+  }
+  .layout_list_header {
+    font-size: 0.71rem;
+    gap: 1rem;
+  }
+  .component_img_header {
+    width: 20px;
+    height: 20px;
+  }
+  .component_name_header {
+    font-size: 0.71rem;
+  }
+  .layout_container_adicional_info_header {
+    gap: 0.25rem;
+  }
+}
+@media screen and (max-width: 395px) {
+  .component_item_filter {
+    width: 47%;
+  }
+  .component_text_button{
+    font-size: 0.7rem;
+  }
+  .layout_button img {
+    width: 20px;
+    height: 20px;
+  }
+  .component_img_header {
+    width: 15px;
+    height: 15px;
+  }
+  .component_name_header {
+    font-size: .6rem;
+  }
+  .layout_list_header {
+    font-size: 0.6rem;
+  }
+  .component_book_img {
+    height: 100px;
+  }
+  .component_title_book {
+    font-size: 0.7rem;
+  }
+  .component_text_descricao {
+    font-size: .68rem;
+  }
+}

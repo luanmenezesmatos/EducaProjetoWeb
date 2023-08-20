@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.layout_sidebar_visible {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.31);
+  height: 100vh;
+  gap: 2rem;
+  width: 7vw;
+}
+.grow {
+  padding: 2rem 0rem 4rem 0rem;
+}
+.layout_container_svg {
+  cursor: pointer;
+}
+.layout_sidebar_hidden {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background-color: #ffffff;
+  width: 27vw;
+  height: 100vh;
+  overflow-y: scroll;
+  padding: 1rem 0rem;
+  transition: 0.7s;
+}
+::-webkit-scrollbar {
+  background-color: #E4E4E4;
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 1.25rem;
+}
+.layout_container_title_sidebar_hidden {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.layout_container_title_sidebar_hidden figure {
+  cursor: pointer;
+}
+.component_title_sidebar_hidden {
+  font-size: 2rem;
+}
+.layout_item_menu_sidebar_hidden {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 1.25rem;
+  padding: .80rem 0.80rem 0.80rem 1rem;
+  border-radius: 10px;
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+.layout_container_elements {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding: 1.25rem 0rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.layout_materia {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80%;
+  background-color: #f6f6f6;
+  margin: auto;
+  padding: 2rem 1.50rem;
+  border-radius: 10px;
+}
+.layout_list_materia {
+  display: flex;
+  gap: 1.25rem;
+  flex-direction: column;
+  list-style: none;
+}
+.historia {
+  background-color: #D80034;
+}
+.geografia {
+  background-color: #fd7d32;
+}
+.sociologia {
+  background-color: #FBBA2E;
+}
+.biologia {
+  background-color: #D5D82F;
+}
+.espanhol {
+  background-color: #B5B82D;
+}
+.filosofia {
+  background-color: #F99D29 ;
+}
+.literatura {
+  background-color: #8000AD;
+}
+.ingles {
+  background-color: #0070D8;
+}
+.portugues {
+  background-color: #0092FF;
+}
+.artes {
+  background-color: #78B227;
+}
+.quimica {
+  background-color: #8FD82B;
+}
+.matematica {
+  background-color: #00D085;
+}
+.color {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+.component_materia_hidden {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  cursor: pointer;
+}
+.layout_main_materia {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  padding-bottom: 2rem;
+  font-size: 1.10rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

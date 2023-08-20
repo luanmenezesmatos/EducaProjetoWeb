@@ -1,0 +1,498 @@
+@media screen and (max-width: 2000px) {
+  .layout_container_main_inputs {
+    width: 53%;
+    gap: 1.25rem;
+  }
+  .input_text {
+    padding: 2rem 2.5rem;
+    font-size: 1.5rem;
+    width: 600px ;
+  }
+  .component_title_questoes {
+    font-size: 4rem;
+  }
+  .layout_container_input .label {
+    font-size: 1.3rem;
+  }
+  #check {
+    width: 20px;
+    height: 20px;
+  }
+  #check_box {
+    font-size: 1.3rem;
+  }
+  .button_new_components  {
+    padding: 1.7rem 1.8rem; 
+    font-size: 1.3rem;
+  }
+
+  .componente_title_questions_new {
+    font-size: 1.5rem;
+  }
+  .componente_text_new {
+    font-size: 1.5rem;
+    padding: 1.2rem
+  }
+  .componente_text_description {
+    font-size: 1.5rem;
+  }
+  .button_hidden_questions {
+    font-size: 1.3rem;
+  }
+  .svg_hidden_questions {
+    width: 30px;
+    height: 30px;
+  }
+  .componente_texto_description_question {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .forma_container {
+    width: 100px;
+    height: 100px;
+  }
+  .container_alternativa {
+    width: 80px;
+    height: 80px;
+  }
+  .button_confirm {
+    font-size: 1.3rem;
+  }
+  #text_comple {
+    font-size: 1.3rem;
+  }
+  #img_verifed {
+    width: 30px;
+  }
+}
+@media screen and (max-width: 1883px) {
+  .input_text {
+    padding: 2rem 2.5rem;
+    font-size: 1.5rem;
+    width: 550px ;
+  }
+  .button_new_components  {
+    padding: 1.3rem 1.5rem; 
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1728px) {
+  .input_text {
+    padding: 1.5rem 2rem;
+    font-size: 1.5rem;
+    width: 460px;
+  }
+  .button_new_components  {
+    padding: 1.3rem 1.5rem; 
+    font-size: 1rem;
+  }
+  #check_box {
+    font-size: 1.1rem;
+  }
+  #check {
+    width: 15px;
+    height: 15px;
+  }
+}
+@media screen and (max-width: 1450px) {
+  .componente_title_questions_new {
+    font-size: 1.1rem;
+  }
+  .componente_text_new {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+  .componente_text_description {
+    font-size: 1.1rem;
+  }
+  .button_hidden_questions {
+    font-size: 1rem;
+  }
+  .svg_hidden_questions {
+    width: 25px;
+    height: 25px;
+  }
+  .componente_texto_description_question {
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+  }
+  .forma_container {
+    width: 80px;
+    height: 80px;
+  }
+  .container_alternativa {
+    width: 60px;
+    height: 60px;
+  }
+  .button_confirm {
+    font-size: 1rem;
+  }
+  #text_comple {
+    font-size: 1rem;
+  }
+  #img_verifed {
+    width: 25px;
+  }
+}
+@media screen and (max-width: 1446px) {
+  .input_text {
+    padding: 1.5rem 2rem;
+    font-size: 1.2rem;
+    width: 350px;
+  }
+  .button_new_components  {
+    padding: 1.3rem 1.5rem; 
+    font-size: 1rem;
+  }
+  #check_box {
+    font-size: 1.1rem;
+  }
+  #check {
+    width: 15px;
+    height: 15px;
+  }
+  .layout_container_inputs {
+    width: 67vw;
+  }
+  .button_new_components {
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+
+
+@media screen and (max-width: 1500px) {
+  .layout_container_main_inputs {
+    width: 53%;
+    gap: 1.25rem;
+  }
+  .input_text {
+    padding: 1.5rem 2rem;
+    font-size: 1.2rem;
+  }
+  .component_title_questoes {
+    font-size: 3rem;
+  }
+  .component_button {
+    padding: 1rem 4rem; 
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .input_text {
+    padding: 1.5rem 2rem;
+    font-size: 0.9rem;
+    width: 300px;
+  }
+  .button_new_components  {
+    padding: 0.8rem 1rem; 
+    font-size: 0.7rem;
+  }
+  #check_box {
+    font-size: 0.9rem;
+  }
+  #check {
+    width: 12px;
+    height: 12px;
+  }
+  .layout_container_inputs {
+    width: 67vw;
+  }
+  .layout_container_input .label {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .img_questions {
+    width: 200px;
+    height: 200px
+  }
+  .componente_title_questions_new {
+    font-size: 0.8rem;
+  }
+  .componente_text_new {
+    font-size: 0.8rem;
+    padding: 0.9rem;
+  }
+  .componente_text_description {
+    font-size: 0.8rem;
+  }
+  .button_hidden_questions {
+    font-size: 0.7rem;
+  }
+  .svg_hidden_questions {
+    width: 20px;
+    height: 20px;
+  }
+  .componente_texto_description_question {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+  .forma_container {
+    width: 60px;
+    height: 60px;
+  }
+  .container_alternativa {
+    width: 40px;
+    height: 40px;
+  }
+  .button_confirm {
+    font-size: 0.8rem;
+  }
+  #text_comple {
+    font-size: 0.8rem;
+  }
+  #img_verifed {
+    width: 20px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .layout_container_main_inputs {
+    width: 53%;
+    gap: 1.25rem;
+  }
+  .input_text {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    width: 300px;
+    font-size: 0.9rem;
+  }
+  .component_title_questoes {
+    font-size: 3rem;
+  }
+  .component_button {
+    padding: 0.8rem 3.5rem; 
+    font-size: 0.9rem;
+  }
+  .layout_container_input .label {
+    font-size:  0.9rem;
+  }
+}
+
+
+@media screen and (max-width: 1059px) {
+  .layout_container_main_inputs {
+    width: 53%;
+    gap: 1.25rem;
+  }
+  .input_text {
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+    width: 250px;
+    font-size: 0.7rem;
+  }
+  .component_title_questoes {
+    font-size: 3rem;
+  }
+  .component_button {
+    padding: 0.8rem 3.5rem; 
+    font-size: 0.7rem;
+  }
+  .layout_container_input .label {
+    font-size:  0.7rem;
+  }
+  .button_new_components  {
+    padding: 0.8rem 0.5rem; 
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 880px){
+  .layout_container_inputs {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .input_text {
+    font-size: 1rem;
+    width: 290px;
+  }
+  .layout_container_input .label {
+    font-size:  1rem;
+  }
+  .button_new_components {
+    padding: 0.8rem 1.3rem;
+  }
+}
+
+
+@media screen and (max-width: 825px) {
+
+  .input_text {
+    padding: 1rem 1.2rem;
+    font-size: 1.2rem;
+    width: 240px;
+    font-size: 0.8rem;
+  }
+  .component_title_questoes {
+    font-size: 3rem;
+  }
+  .component_button {
+    padding: 0.8rem 3.5rem; 
+    font-size: 0.8rem;
+  }
+  .layout_container_input .label {
+    font-size:  0.8rem;
+  }
+}
+@media screen and (max-width: 660px) {
+  .img_questions {
+    width: 130px;
+    height: 130px
+  }
+  .componente_title_questions_new {
+    font-size: 0.7rem;
+  }
+  .figcaption {
+    font-size: 0.6rem;
+  }
+  .componente_text_new {
+    font-size: 0.7rem;
+    padding: 0.7rem;
+  }
+  .componente_text_description {
+    font-size: 0.7rem;
+  }
+  .button_hidden_questions {
+    font-size: 0.65rem;
+  }
+  .svg_hidden_questions {
+    width: 18px;
+    height: 18px;
+  }
+  .componente_texto_description_question {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  .forma_container {
+    width: 40px;
+    height: 40px;
+  }
+  .container_alternativa {
+    width: 20px;
+    height: 20px;
+    font-size: 0.7rem;
+  }
+  .button_confirm {
+    font-size: 0.6rem;
+  }
+  #text_comple {
+    font-size: 0.6rem;
+    padding: 0.5rem 0.7rem;
+  }
+  #img_verifed {
+    width: 18px;
+  }
+  #button_verifed {
+    padding: 0.4rem 0.6rem;
+    gap: 0px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .layout_container_main_inputs {
+    flex-direction: column;
+  }
+  .input_text {
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    width: 240px;
+  }
+  .component_title_questoes {
+    font-size: 2rem;
+  }
+  .component_button {
+    padding: 0.8rem 3.5rem; 
+    font-size: 1rem;
+  }
+  .layout_container_input .label {
+    font-size:  1rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .input_text {
+    font-size: .8rem;
+    width: 200px;
+  }
+  .layout_container_input .label {
+    font-size:  0.8rem;
+  }
+  .button_new_components {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .img_questions {
+    width: 120px;
+    height: 120px
+  }
+  .componente_title_questions_new {
+    font-size: 0.7rem;
+  }
+  .figcaption {
+    font-size: 0.6rem;
+  }
+  .componente_text_new {
+    font-size: 0.6rem;
+    padding: 0.5rem;
+  }
+  .componente_text_description {
+    font-size: 0.7rem;
+  }
+  .button_hidden_questions {
+    font-size: 0.65rem;
+  }
+  .svg_hidden_questions {
+    width: 18px;
+    height: 18px;
+  }
+  .componente_texto_description_question {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  .forma_container {
+    width: 40px;
+    height: 40px;
+  }
+  .container_alternativa {
+    width: 20px;
+    height: 20px;
+    font-size: 0.7rem;
+  }
+  .button_confirm {
+    font-size: 0.6rem;
+  }
+  #text_comple {
+    font-size: 0.6rem;
+    padding: 0.5rem 0.7rem;
+  }
+  #img_verifed {
+    width: 18px;
+  }
+  #button_verifed {
+    padding: 0.4rem 0.6rem;
+    gap: 0px;
+  }
+  .container_button_confirm {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 360px) {
+  .layout_container_main_inputs {
+    flex-direction: column;
+  }
+  .input_text {
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+    width: 190px;
+  }
+  .component_title_questoes {
+    font-size: 1.5rem;
+  }
+  .component_button {
+    padding: 0.8rem 3rem; 
+    font-size: 0.8rem;
+  }
+  .layout_container_input .label {
+    font-size:  0.8rem;
+  }
+}

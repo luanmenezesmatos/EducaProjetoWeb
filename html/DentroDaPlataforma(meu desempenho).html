@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Desempenho — Educa</title>
+  <link rel="stylesheet" href="../CSS/sidebar.css">
+  <link rel="stylesheet" href="../CSS/desempenho.css">
+  <link rel="stylesheet" href="../Assets/import.css">
+  <link rel="stylesheet" href="../CSS/mediaqueries.css">
+  <link rel="stylesheet" href="../CSS/querieSideBar.css">
+</head>
+<body>
+  <div class="layout_sidebar_visible altura">
+    <div class="layout_container_svg grow">
+      <figure>
+        <img src="../Assets/svg/Ícone do Menu.svg"  class="component_svg_sidebar" alt="" id="sidebar_button">
+      </figure>
+    </div>
+    <div class="layout_container_svg">
+      <figure>
+        <a href="./DentroDaPlataforma(dashboard).html"><img src="../Assets/svg/notificationfavorite.svg" class="component_svg_sidebar" alt=""></a>
+      </figure>
+    </div>
+    <div class="layout_container_svg">
+      <figure>
+        <a href="./DentroDaPlataforma(meu desempenho).html"><img src="../Assets/svg/star.svg" class="component_svg_sidebar" alt=""></a>
+      </figure>
+    </div>
+    <div class="layout_container_svg">
+      <figure>
+        <a href="./DentroDaPlataforma(questões).html"><img src="../Assets/svg/check.svg"  class="component_svg_sidebar"alt=""></a>
+      </figure>
+    </div>
+  </div>
+  <!-- Sidebar não vísivel-->
+  <div class="layout_sidebar_hidden">
+    <div class="layout_container_title_sidebar_hidden">
+      <a href="#"><h1 class="component_title_sidebar_hidden bold">Educa</h1></a>
+      <figure>
+        <img src="../Assets/svg/Ícone do Menu.svg" alt="" class="component_menu" id="back_button">
+      </figure>
+    </div>
+    <div class="layout_container_elements">
+      <div class="layout_item_menu_sidebar_hidden">
+        <figure>
+          <a href="./DentroDaPlataforma(dashboard).html"><img src="../Assets/svg/notificationfavorite.svg" alt="" class="component_svg_hidden"></a>
+        </figure>
+        <a href="./DentroDaPlataforma(dashboard).html"><span class="component_svg_span_hidden semiBold">Novidades</span></a>
+      </div>
+      <div class="layout_item_menu_sidebar_hidden">
+        <figure>
+          <a href="./DentroDaPlataforma(meu desempenho).html"><img src="../Assets/svg/star.svg" alt="" class="component_svg_hidden"></a>
+        </figure>
+        <a href="./DentroDaPlataforma(meu desempenho).html"><span class="component_svg_span_hidden semiBold">Meu Desempenho</span></a>
+      </div>
+      <div class="layout_item_menu_sidebar_hidden">
+        <figure>
+          <a href="./DentroDaPlataforma(questões).html"><img src="../Assets/svg/check.svg" alt="" class="component_svg_hidden"></a>
+        </figure>
+        <a href="./DentroDaPlataforma(questões).html"><span class="component_svg_span_hidden semiBold">Questões</span></a>
+      </div>
+    </div>
+    <div class="layout_materia">
+      <div class="layout_main_materia">
+        <figure><img src="../Assets/svg/cub.svg" alt=""></figure>
+        <p class="semiBold">Disciplinas</p>
+      </div>
+      <ol class="layout_list_materia">
+        <li class="component_materia_hidden medium">
+          <div class="historia color"></div>História</li>
+        <li class="component_materia_hidden medium">
+          <div class="geografia color"></div>Geografia</li>
+        <li class="component_materia_hidden medium">
+          <div class="filosofia color"></div>Filosofia</li>
+        <li class="component_materia_hidden medium">
+          <div class="sociologia color"></div>Sociologia</li>
+        <li class="component_materia_hidden medium">
+          <div class="biologia color"></div>Biologia</li>
+        <li class="component_materia_hidden medium">
+          <div class="espanhol color"></div>Espanhol</li>
+        <li class="component_materia_hidden medium">
+          <div class="literatura color"></div>Literatura</li>
+        <li class="component_materia_hidden medium">
+          <div class="ingles color"></div>Inglês</li>
+        <li class="component_materia_hidden medium">
+          <div class="portugues color"></div>Português</li>
+        <li class="component_materia_hidden medium">
+          <div class="matematica color"></div>Matemática</li>
+        <li class="component_materia_hidden medium">
+          <div class="quimica color"></div>Química</li>
+        <li class="component_materia_hidden medium">
+          <div class="artes color"></div>Artes</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="layout_desempenho layout_extra_info">
+    <div class="layout_container_title_desempenho">
+      <h1 class="bold component_title_desempenho">Meu desempenho</h1>
+    </div>
+    <div class="layout_container_main_drop2">
+      <div class="layout_main_container_drop">
+        <p class="component_label bold">Período para analisar</p>
+        <select name="" class="layout_container_dropdown component_text_drop">
+          <option value="ultimo_sete_dias" selected>Últimos 7 dias</option>
+          <option value="semana_passada">Semana Passada</option>
+          <option value="esta_semana">Esta Semana</option>
+          <option value="mes_passado">Mês passado</option>
+          <option value="este_mes">Este mês</option>
+          <option value="mes_passado">Mês passado</option>
+          <option value="ultimos_quinze_dias">Últimos 15 dias</option>
+          <option value="ultimos_trinta_dias">Últimos 30 dias</option>
+          <option value="ultimos_três_meses">Últimos 3 meses</option>
+          <option value="ultimos_seis_meses">Últimos 6 meses</option>
+        </select>
+      </div>
+      <div class="layout_main_container_drop">
+        <p class="component_label bold">Formato</p>
+        <select name="" id="" class="layout_container_dropdown component_text_drop">
+          <option value="diariamente" selected>Diariamente</option>
+          <option value="diariamente">Semanalmente</option>
+          <option value="diariamente">Mensalmente</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <h1 class="bold">Desempenho Geral</h1>
+      <p>Últimos 7 dias considerando todas as disciplinas</p>
+    </div>
+    <div class="layout_container_button">
+      <h1 class="bold">Responda algumas questões para ver o desempenho geral</h1>
+      <a href="./DentroDaPlataforma(questões).html">
+        <button class="component_button bold">
+          Responder questões
+        </button>
+      </a>
+    </div>
+    <div class="layout_container_button_desciplina">
+      <div>
+        <h1 class="bold">Por disciplina</h1>
+        <p>Últimos 7 dias separados por disciplina</p>
+      </div>
+      <div>
+        <div class="layout_container_disciplinas ">
+          <h1 class="component_disciplina_ordem">Ordem das disciplinas</h1>
+          <select name="" class="layout_container_alfa component_text_drop">
+            <option value="alfabetica" selected>Alfabética</option>
+            <option value="mais_praticadas" selected>Mais praticadas</option>
+            <option value="mais_acertos" selected>Mais acertos</option>
+            <option value="mais_erros" selected>Mais erros</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="layout_container_button">
+      <h1 class="bold">Responda algumas questões para ver o desempenho geral</h1>
+      <a href="./DentroDaPlataforma(questões).html">
+        <button class="component_button bold">
+          Responder questões
+        </button>
+      </a>
+    </div>
+  </div>
+</body>
+<script src="../JavaScript/sidebar.js"></script>
+</html>

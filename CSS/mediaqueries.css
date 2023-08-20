@@ -1,0 +1,273 @@
+@media screen and (max-width: 2000px) {
+  .component_title_desempenho {
+    font-size: 4rem;
+  }
+  .layout_container_dropdown {
+    width: 30rem;
+    padding: 1.5rem 2.5rem;
+    appearance: none;
+  }
+  .component_label {
+    font-size: 1.5rem;
+  }
+  .component_text_drop {
+    font-size: 1.5rem;
+  }
+  .component_svg {
+    width: 30px;
+    height: 30px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .layout_container_button_desciplina {
+    align-items: center;
+  }
+  .layout_container_alfa {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1607px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .layout_container_dropdown {
+    width: 25rem;
+    padding: 1.3rem 2.3rem;
+  }
+  .component_label {
+    font-size: 1.3rem;
+  }
+  .component_text_drop {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 1316px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  .component_button {
+    width: 300px;
+    font-size: 1.10rem;
+  }
+}
+
+@media screen and (max-width: 1131px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .component_button {
+    width: 280px;
+    font-size: 1rem;
+  }
+  .layout_container_dropdown {
+    width: 20rem;
+    padding: 1.3rem 2.3rem;
+  }
+  .component_label {
+    font-size: 1.3rem;
+  }
+  .component_text_drop {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 1098px) {
+  .layout_container_alfa {
+    padding: 1rem 1rem;
+    font-size: 0.99rem;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 974px) {
+  p {
+    font-size: 1.3rem;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .layout_container_alfa {
+    padding: .90rem .90rem;
+    font-size: 0.99rem;
+    width: 200px;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  .component_disciplina_ordem {
+    font-size: 1rem;
+  }
+  .layout_container_dropdown {
+    width: 17rem;
+    padding: 1.2rem 2.1rem;
+  }
+  .component_label {
+    font-size: 1.1rem;
+  }
+  .component_text_drop {
+    font-size: 1.1rem;
+  }
+  .component_svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .component_title_desempenho {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .component_title_desempenho {
+    font-size: 2.5rem;
+  }
+  .layout_container_dropdown {
+    width: 15rem;
+    padding: 1rem 1.8rem;
+  }
+  .component_label {
+    font-size: 1rem;
+  }
+  .component_text_drop {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 1.1rem;
+  }
+  .component_button {
+    width: 210px;
+    font-size: 0.80rem;
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .layout_container_dropdown {
+    width: 12rem;
+    padding: 1rem 1.8rem;
+  }
+  .component_label {
+    font-size: 1rem;
+  }
+  .component_text_drop {
+    font-size: .90rem;
+  }
+  .component_svg {
+    width: 15px;
+    height: 15px;
+  }
+  .layout_container_alfa {
+    width: 150px;
+    padding: .80rem .80rem;
+    font-size: 0.80rem;
+  }
+  .component_disciplina_ordem {
+    width: 100%;
+    text-align: center;
+    font-size: .80rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .layout_container_dropdown {
+    width: 10rem;
+    padding: 1rem 1.3rem;
+  }
+  .component_label {
+    font-size: .80rem;
+  }
+  .component_text_drop {
+    font-size: .80rem;
+  }
+  .component_title_desempenho {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 510px) {
+  p {
+    font-size: .80rem;
+  }
+  .component_title_desempenho {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 470px) {
+  .layout_container_alfa {
+    width: 130px;
+  }
+  .component_disciplina_ordem {
+    font-size: .70rem;
+  }
+}
+@media screen and (max-width: 440px) {
+  .component_button {
+    width:190px;
+    font-size: 0.70rem;
+  }
+  .layout_container_alfa {
+    width: 100px;
+  }
+  .component_disciplina_ordem {
+    font-size: .70rem;
+  }
+  .layout_container_dropdown {
+    width: 8rem;
+    padding: 1rem 0.9rem;
+  }
+  .component_label {
+    font-size: .70rem;
+  }
+  .component_text_drop {
+    font-size: .65rem;
+  }
+  .component_title_desempenho {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 365px) {
+  .component_disciplina_ordem {
+    font-size: .50rem;
+  }
+  .layout_container_dropdown {
+    width: 6.5rem;
+    padding: 0.7rem 0.3rem;
+  }
+  .component_label {
+    font-size: .50rem;
+  }
+  h1 {
+    font-size: .90rem;
+  }
+  .component_text_drop {
+    font-size: .60rem;
+  }
+  .component_svg {
+    width: 10px;
+    height: 10px;
+  }
+  .component_title_desempenho {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 325px) {
+  .component_title_desempenho {
+    font-size: 1.2rem;
+  }
+}

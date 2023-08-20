@@ -1,0 +1,22 @@
+@import url(fonts/Montserrat.css);
+
+
+body {
+  font-family: 'Montserrat';
+}
+
+.regular {
+  font-family: 'Montserrat';
+}
+
+.bold {
+  font-family: 'bold Montserrat';
+}
+
+.semiBold {
+  font-family: 'semi bold Montserrat';
+}
+
+.medium {
+  font-family: 'medium Montserrat';
+}
